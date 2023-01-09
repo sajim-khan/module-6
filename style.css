@@ -7,3 +7,45 @@ h1:hover{
     color: blueviolet;
     font-weight: 700;
 }
+ a:visited{
+    color: chocolate;
+ }
+
+li:first-child{
+    color: rgb(82, 14, 192);
+}
+li:last-child{
+    background-color: aqua;
+}
+li:nth-child(2n){
+    color: crimson;
+}
+li:nth-child(2n+1){
+    background-color:rgb(213, 206, 219);
+}
+
+h3::before{
+    content: 'Hello ';
+}
+
+h3::after{
+    content:' Thanks';
+}
+h3{
+    margin-left: 30px;
+}
+.special::after{
+    color:blue;
+}
+
+
+.swimming div{
+    border: 1px dashed palevioletred;
+    width: 200px;
+}
+
+.ring{
+    position: relative;
+    left: 50px;
+    top: -40px;
+}
