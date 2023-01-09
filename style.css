@@ -1,3 +1,9 @@
-.p{
-    color: aquamarine;
+
+h1:hover{
+    color:blue;
+}
+
+.second:focus{
+    color: blueviolet;
+    font-weight: 700;
 }
